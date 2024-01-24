@@ -1,0 +1,19 @@
+.services-card-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: 56px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.services-card-image {
+  width: 84px;
+  height: 100%;
+  object-fit: contain;
+}
+.services-card-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+}

@@ -1,0 +1,37 @@
+.portofolio-card-speaker-card {
+  width: 236px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portofolio-card-image-container {
+  width: 50%;
+  height: 227px;
+  display: flex;
+  position: relative;
+  min-width: 300px;
+  max-height: 313px;
+  min-height: 313px;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.portofolio-card-image {
+  top: 7px;
+  left: 7px;
+  width: 230px;
+  height: 213px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.portofolio-card-first-name {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
